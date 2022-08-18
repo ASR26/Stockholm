@@ -26,3 +26,5 @@ El programa cuenta con una serie de flags que podremos utilizar
 <li>./stockholm -r <key> (esto desencriptará los archivos si la key es válida).</li>
 <li>./stockholm -s -r <key> (esto desencriptará los archivos si la key es válida sin mostrar nada por pantalla).</li>
 </ul>
+
+El programa esta basado en el proyecto Stockholm de <a href="https://github.com/gemartin99">gemartin99</a>.
