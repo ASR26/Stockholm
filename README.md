@@ -16,3 +16,13 @@ El programa cuenta con una serie de flags que podremos utilizar
 <code>▶ -v / -version: cualquiera de estos flags como argumento (solo uno) mostrará la versión actual del programa</code></br>
 <code>▶ -s / -silent: cualquiera de estos flags como argumento (solo uno) evitará que el programa muestre ningún tipo de output</code></br>
 <code>▶ -r / -reverse: cualquiera de estos flags como argumento (solo uno) seguido de la key mostrada al ejecutar el programa hará una desinfección de los archivos infectados (desencriptado)</code></br>
+
+<h2>Uso de las flags</h2>
+<p>Las flags se podrán usar de la siguiente forma:</p>
+<ul>
+<li>./stockholm -h (esto mostrará el menú de ayuda).</li>
+<li>./stockholm -v (esto mostrará la versión del programa).</li>
+<li>./stockholm -s (esto hará el encriptado sin mostrar nada por pantalla, habrá que leer el archivo .stockholm.txt para ver la contraseña de desencriptado).</li>
+<li>./stockholm -r <key> (esto desencriptará los archivos si la key es válida).</li>
+<li>./stockholm -s -r <key> (esto desencriptará los archivos si la key es válida sin mostrar nada por pantalla).</li>
+</ul>
