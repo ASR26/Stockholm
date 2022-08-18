@@ -3,7 +3,7 @@ Stockholm es un programa de malware hecho en C que afecta a sistemas basados en 
 
 <h1>Uso</h1>
 <ul>
-<li>Para que funcione correctamente deberemos modificar los path de las lineas 223 y 366.</li>
+<li>Para que funcione correctamente deberemos modificar los path de las lineas 216 y 405.</li>
 <li>Tras hacer esto debemos compilar el programa de la siguiente manera: gcc stockholm.c -o stokholm.</li>
 <li>Una vez compilado el archivo deberá estar en la carpeta que queramos infectar.</li>
 </ul>
