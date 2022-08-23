@@ -95,13 +95,13 @@ int	control_letter(char *s) //función que comprueba que las flags sean correcta
 	i = 0;
 	if (strcmp(s, "-help") == 0 || strcmp(s, "-h") == 0) //si la flag es -h o -help mostrará el texto de ayuda
 	{
-		printf("Este programa tiene las siguientes opciones:\n\n▶ -help o -h para mostrar la ayuda actual.🆘\n▶ -version o -v para mostrar la versión del programa.🆔\n▶ -reverse o -r seguida de la clave introducida como argumento para revertir la infección.⏪\n▶ -silent o -s para que el programa no produzca ningún output.🔇\n");
-		return (0);
+		printf("Este programa tiene las siguientes opciones:\n\n▶ -help o -h para mostrar la ayuda actual.🆘\n▶ -version o -v para mostrar la versión del programa.🆔\n▶ -reverse o -r seguida de la clave introducida como argumento para revertir la infección.⏪\n▶ -silent o -s para que el programa no produzca ningún output.🔇\n\n");
+		exit (0);
 	}
 	else if (strcmp(s, "-version") == 0 || strcmp(s, "-v") == 0) //si la flag es -version o -v mostrará la versión del programa
 	{
 		printf("Versión 1.0♻️\n");
-		return (0);
+		exit (0);
 	}
 	else if (strcmp(s, "-silent") == 0 || strcmp(s, "-s") == 0) //si la flag es -silent o -s el programa no mostrará output
 	{
