@@ -1,5 +1,5 @@
 <h1>Descripción</h1>
-Stockholm es un programa de malware hecho en C que afecta a sistemas basados en Linux. Cuidado a la hora de usarlo ya que el programa encriptará archivos. Todos los archivos afectados por <a href="https://es.wikipedia.org/wiki/WannaCry">WannaCry</a> serán encriptados mediante <a href="https://es.wikipedia.org/wiki/Advanced_Encryption_Standard">AES-256</a>, agregando la extensión .ft a los archivos
+Stockholm es un malware, específicamente un ransomware hecho en C que afecta a sistemas basados en Linux. Cuidado a la hora de usarlo ya que el programa encriptará archivos. Todos los archivos afectados por <a href="https://es.wikipedia.org/wiki/WannaCry">WannaCry</a> serán encriptados mediante <a href="https://es.wikipedia.org/wiki/Advanced_Encryption_Standard">AES-256</a>, agregando la extensión .ft a los archivos
 
 <h1>Uso</h1>
 <ul>
