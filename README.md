@@ -10,14 +10,13 @@ Stockholm es un malware, específicamente un ransomware hecho en C que afecta a 
 <p>Se ejecutará como cualquier programa, de la siguiente forma: ./stockholm</p>
 
 <h1>Flags</h1>
-El programa cuenta con una serie de flags que podremos utilizar
+El programa cuenta con una serie de flags que podremos utilizar:
 
-```
-▶ -h / -help: cualquiera de estos flags como argumento (solo uno) mostrará un mensaje de ayuda que explica el funcionamiento del programa.</br>
-▶ -v / -version: cualquiera de estos flags como argumento (solo uno) mostrará la versión actual del programa</br>
-▶ -s / -silent: cualquiera de estos flags como argumento (solo uno) evitará que el programa muestre ningún tipo de output</br>
-▶ -r / -reverse: cualquiera de estos flags como argumento (solo uno) seguido de la key mostrada al ejecutar el programa hará una desinfección de los archivos infectados (desencriptado)</br>
-```
+- -h / -help: cualquiera de estos flags como argumento (solo uno) mostrará un mensaje de ayuda que explica el funcionamiento del programa.</br>
+- -v / -version: cualquiera de estos flags como argumento (solo uno) mostrará la versión actual del programa</br>
+- -s / -silent: cualquiera de estos flags como argumento (solo uno) evitará que el programa muestre ningún tipo de output</br>
+- -r / -reverse: cualquiera de estos flags como argumento (solo uno) seguido de la key mostrada al ejecutar el programa hará una desinfección de los archivos infectados (desencriptado)</br>
+
 
 <h2>Uso de las flags</h2>
 <p>Las flags se podrán usar de la siguiente forma:</p>
